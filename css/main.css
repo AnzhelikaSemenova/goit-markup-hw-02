@@ -16,14 +16,17 @@ body {
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.14;
   text-decoration: none;
 }
-.logo .logo-two {
+.logo-two {
   color: var(--title-text-color);
 }
+.logo-free{
+  /* color:var(--primary-bg-color) ; */
+color: var(--title-text-color);}
 
 button {
   font-family: inherit;
@@ -34,14 +37,18 @@ ul {
 
 /* site-nav навигация сайта */
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus,
+.footer-nav .link:hover,
+.footer-nav .link:focus {
   color: var(--accent-color);
 }
 .auth-nav .link {
@@ -51,13 +58,23 @@ ul {
   line-height: 0.87;
   text-decoration: none;
 }
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--accent-color);
-}
 
-.footer-list {
+.footer-title {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
+.footer-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
+.footer-nav .adress {
+  color:var(--primary-text-color);
+  /* Цвет должен быть белым у города, не забыть поменять  */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
