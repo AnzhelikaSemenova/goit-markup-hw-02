@@ -24,9 +24,10 @@ body {
 .logo-two {
   color: var(--title-text-color);
 }
-.logo-free{
+.logo-free {
   /* color:var(--primary-bg-color) ; */
-color: var(--title-text-color);}
+  color: var(--title-text-color);
+}
 
 button {
   font-family: inherit;
@@ -72,9 +73,10 @@ ul {
   font-style: normal;
 }
 .footer-nav .adress {
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
   /* Цвет должен быть белым у города, не забыть поменять  */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+}
