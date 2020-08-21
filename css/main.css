@@ -83,7 +83,6 @@ ul {
 }
 .footer-nav .adress {
   color: var(--primary-text-color);
-  /* Цвет должен быть белым у logo, не забыть поменять  */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
