@@ -35,14 +35,19 @@ button {
 ul {
   list-style: none;
 }
-
+a {
+  text-decoration: none;
+}
 /* site-nav навигация сайта */
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  text-decoration: none;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -57,7 +62,6 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 0.87;
-  text-decoration: none;
 }
 
 .footer-title {
@@ -71,12 +75,14 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+  text-decoration: none;
 }
 .footer-nav .adress {
   color: var(--primary-text-color);
-  /* Цвет должен быть белым у города, не забыть поменять  */
+  /* Цвет должен быть белым у logo, не забыть поменять  */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+  text-decoration: none;
 }
