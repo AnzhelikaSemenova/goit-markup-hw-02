@@ -46,6 +46,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 
 .site-nav .link.current {
@@ -64,6 +65,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 0.87;
+  text-decoration: none;
 }
 
 .footer-title {
