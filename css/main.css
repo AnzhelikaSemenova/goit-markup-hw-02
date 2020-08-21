@@ -3,6 +3,9 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
+  --moz-decoration-color: #2f303a;
+  --animation-direction: #f5f4fa;
+  --moz-decoration-style: #e5e5e5;
 }
 
 body {
@@ -25,8 +28,7 @@ body {
   color: var(--title-text-color);
 }
 .logo-free {
-  /* color:var(--primary-bg-color) ; */
-  color: var(--title-text-color);
+  color: var(--primary-bg-color);
 }
 
 button {
@@ -35,8 +37,8 @@ button {
 ul {
   list-style: none;
 }
-a {
-  text-decoration: none;
+.section-hero {
+  background-color: var(--moz-decoration-style);
 }
 /* site-nav навигация сайта */
 .site-nav .link {
@@ -85,4 +87,7 @@ a {
   line-height: 1.7;
   font-style: normal;
   text-decoration: none;
+}
+.footer-nav {
+  background-color: var(--moz-decoration-color);
 }
