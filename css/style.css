@@ -8,13 +8,10 @@
         line-height: 1.36;
         text-align: center;
     }
-    .section-hero{
-      background-color: var(--moz-decoration-style);  
-    }
-    .section{
-       background-color: var(--moz-decoration-style);
+      
+   
 
-    }
+    
     /* Section */
     .nav-section{
         background-color: var(--animation-direction);

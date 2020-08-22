@@ -5,7 +5,6 @@
   --primary-bg-color: #ffffff;
   --moz-decoration-color: #2f303a;
   --animation-direction: #f5f4fa;
-  --moz-decoration-style: #e5e5e5;
 }
 
 body {
@@ -37,9 +36,7 @@ button {
 ul {
   list-style: none;
 }
-.section-hero {
-  background-color: var(--moz-decoration-style);
-}
+
 /* site-nav навигация сайта */
 .site-nav .link {
   color: var(--title-text-color);

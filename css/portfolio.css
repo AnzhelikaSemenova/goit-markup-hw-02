@@ -11,10 +11,6 @@ a {
   text-decoration: none;
 }
 
-.section-portfolio {
-  background-color: var(--moz-decoration-style);
-}
-
 .portfolio-nav .link:hover,
 .portfolio-nav .link:focus {
   color: var(--primary-bg-color);
